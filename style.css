@@ -142,6 +142,8 @@ main{
 }
 .main-currency-table .currency-table--title{
     margin-bottom: 15px;
+    padding-left: 24px;
+    text-align: left;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -199,8 +201,26 @@ main{
     background-repeat: no-repeat;
 
 }
+.currency-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--solf-orange);
+    border-radius: 8px;
+}
+.currency-table--date p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+
+}
 .main-commission-table .commission-table--title{
     margin-bottom: 15px;
+    padding-left: 24px;
+    text-align: left;
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.34;
@@ -208,7 +228,7 @@ main{
 }
 .main-commission-table .commission-table--container{
     width: 90%;
-    min-width 230px;
+    min-width: 230px;
     max-width: 300px;
     height: 250px;
     margin:0 auto; 
@@ -236,4 +256,122 @@ main{
 }
 .commission-table--container .table__bottom-right{
     border-radius: 0 0 15px 0;
+}
+.commission-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--solf-blue);
+    border-radius: 15px;
+}
+.commission-table--date p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: var(--warm-black);
+}
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail-batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url("./asses/imgs/logo2.svg");
+    background-repeat: no-repeat;
+    top: -10px;
+    left: calc(50% - 20px)
+}
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail--card{
+    width: 95%;
+    min-width: 200px;
+    max-width: 400px;
+    height: 150px;
+    margin:15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .clock{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url("./asses/icons/clock.svg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title{
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail--card .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url("./asses/icons/eye.svg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .dollar{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url("./asses/icons/dollar-sign.svg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .check-circle{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url("./asses/icons/check-circle.svg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
